@@ -24,7 +24,6 @@ class ClipPlaylistItem : public PlaylistItem,
 	virtual						~ClipPlaylistItem();
 
 	// BArchivable support
-	__attribute__ ((visibility ("default")))
 	static	BArchivable*		Instantiate(BMessage* archive);
 
 	// PlaylistItem interface

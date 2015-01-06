@@ -37,7 +37,6 @@ class OptionProperty : public Property {
 	// BArchivable interface
 	virtual	status_t			Archive(BMessage* archive, bool deep = true) const;
 	
-	__attribute__ ((visibility ("default")))
 	static	BArchivable*		Instantiate(BMessage* archive);
 
 	// OptionProperty
